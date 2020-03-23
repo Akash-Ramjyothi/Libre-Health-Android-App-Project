@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".newentry">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlheader"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="#E88C3F"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/health1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="35dp"
+                    android:gravity="center"
+                    android:text="New Entry"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Hospital ID for Newborn:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn1"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Place of Birth:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn2"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Date of Birth:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn3"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Time of Birth:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn4"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Sex of Child:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn5"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Name of Mother:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn6"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Name of Father:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn7"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Weight of Child:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn8"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Height of Child:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn9"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Enter Head of Circumference:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/edn10"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:layout_marginTop="23dp" />
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorAccent"
+                android:text="SUBMIT"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="@id/llLoginPanel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="50dp"
+                android:background="#ffffff"
+                android:text="SUBMIT"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="@id/llLoginPanel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
