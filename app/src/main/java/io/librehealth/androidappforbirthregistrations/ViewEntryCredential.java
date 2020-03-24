@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class hospitalid extends AppCompatActivity {
+public class ViewEntryCredential extends AppCompatActivity {
 
     public String val1n;
     @Override
@@ -23,7 +23,7 @@ public class hospitalid extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(),   viewdata.class);
+                Intent myIntent = new Intent(getBaseContext(),   ViewData.class);
                 startActivity(myIntent);
             }
         });

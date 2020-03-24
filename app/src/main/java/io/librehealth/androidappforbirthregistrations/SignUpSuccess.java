@@ -8,7 +8,7 @@ import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class signup_success extends AppCompatActivity {
+public class SignUpSuccess extends AppCompatActivity {
 
     Timer timer;
 

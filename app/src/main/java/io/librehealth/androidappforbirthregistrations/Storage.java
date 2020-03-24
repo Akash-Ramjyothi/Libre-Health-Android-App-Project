@@ -2,11 +2,11 @@ package io.librehealth.androidappforbirthregistrations;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class storage extends hospitalid {
+public class Storage extends ViewEntryCredential {
 
     public String hospitalidn, placeofbirthn, dateofbirthn, timeofbirthn, sexofchildn, nameofmothern, nameoffathern, weightofchildn, heightofchildn, headcircumferencen;
 
-    final hospitalid h = new hospitalid();
+    final ViewEntryCredential h = new ViewEntryCredential();
 
 
     public String[] hospitalid = { "123","456","789" };

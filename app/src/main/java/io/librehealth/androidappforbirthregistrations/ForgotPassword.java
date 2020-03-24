@@ -7,19 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class signup extends AppCompatActivity {
+public class ForgotPassword extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup);
+        setContentView(R.layout.activity_forgot_password);
 
-        TextView textView1=findViewById(R.id.signup);
+        TextView textView1=findViewById(R.id.resetpassword);
 
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(),   signup_success.class);
+                Intent myIntent = new Intent(getBaseContext(),   SignUpSuccess.class);
                 startActivity(myIntent);
             }
         });

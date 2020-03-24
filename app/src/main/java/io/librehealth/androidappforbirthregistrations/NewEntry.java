@@ -6,14 +6,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class newentry extends storage {
+public class NewEntry extends Storage {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_newentry);
 
-      final storage s = new storage();
+      final Storage s = new Storage();
 
         Button button1=findViewById(R.id.signup);
         final EditText edn1=findViewById(R.id.edn1);
@@ -41,7 +41,7 @@ public class newentry extends storage {
                 s.weightofchildn=edn8.getText().toString();
                 s.heightofchildn=edn9.getText().toString();
                 s.headcircumferencen=edn10.getText().toString();
-                Intent myIntent = new Intent(getBaseContext(),   data_success.class);
+                Intent myIntent = new Intent(getBaseContext(),   DataSuccess.class);
                 startActivity(myIntent);
             }
         });

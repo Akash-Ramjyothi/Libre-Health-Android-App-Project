@@ -8,7 +8,7 @@ import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class data_success extends AppCompatActivity {
+public class DataSuccess extends AppCompatActivity {
 
     Timer timer;
 
@@ -22,7 +22,7 @@ public class data_success extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent myIntent = new Intent(getBaseContext(),   welcome.class);
+                Intent myIntent = new Intent(getBaseContext(),   User.class);
                 startActivity(myIntent);
 
             }

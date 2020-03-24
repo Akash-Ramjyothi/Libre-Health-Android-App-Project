@@ -22,21 +22,21 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(),   welcome.class);
+                Intent myIntent = new Intent(getBaseContext(),   User.class);
                 startActivity(myIntent);
             }
         });
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(),   forgot_password.class);
+                Intent myIntent = new Intent(getBaseContext(),   ForgotPassword.class);
                 startActivity(myIntent);
             }
         });
         textView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(),   signup.class);
+                Intent myIntent = new Intent(getBaseContext(),   SignUp.class);
                 startActivity(myIntent);
             }
         });

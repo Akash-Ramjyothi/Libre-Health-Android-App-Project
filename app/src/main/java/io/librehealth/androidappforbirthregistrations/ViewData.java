@@ -8,14 +8,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class viewdata extends storage {
+public class ViewData extends Storage {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_viewdata);
 
-        final storage q = new storage();
+        final Storage q = new Storage();
         Button button1=findViewById(R.id.home);
         Button button2=findViewById(R.id.updateview);
 
@@ -35,7 +35,7 @@ public class viewdata extends storage {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(),   welcome.class);
+                Intent myIntent = new Intent(getBaseContext(),   User.class);
                 startActivity(myIntent);
             }
         });
@@ -43,7 +43,7 @@ public class viewdata extends storage {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(),   data_success.class);
+                Intent myIntent = new Intent(getBaseContext(),   DataSuccess.class);
                 startActivity(myIntent);
             }
         });

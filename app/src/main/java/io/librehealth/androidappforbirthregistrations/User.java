@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class welcome extends AppCompatActivity {
+public class User extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,14 +20,14 @@ public class welcome extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(),   newentry.class);
+                Intent myIntent = new Intent(getBaseContext(),   NewEntry.class);
                 startActivity(myIntent);
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(),   hospitalid.class);
+                Intent myIntent = new Intent(getBaseContext(),   ViewEntryCredential.class);
                 startActivity(myIntent);
             }
         });
